@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactQuotes3/static/css/main.96e37c58.chunk.css",
+    "main.js": "/ReactQuotes3/static/js/main.956aa7df.chunk.js",
+    "main.js.map": "/ReactQuotes3/static/js/main.956aa7df.chunk.js.map",
+    "runtime-main.js": "/ReactQuotes3/static/js/runtime-main.32df2c1a.js",
+    "runtime-main.js.map": "/ReactQuotes3/static/js/runtime-main.32df2c1a.js.map",
+    "static/js/2.5795906c.chunk.js": "/ReactQuotes3/static/js/2.5795906c.chunk.js",
+    "static/js/2.5795906c.chunk.js.map": "/ReactQuotes3/static/js/2.5795906c.chunk.js.map",
+    "index.html": "/ReactQuotes3/index.html",
+    "precache-manifest.9241b224e0af6629c86012e6a5d4e5d4.js": "/ReactQuotes3/precache-manifest.9241b224e0af6629c86012e6a5d4e5d4.js",
+    "service-worker.js": "/ReactQuotes3/service-worker.js",
+    "static/css/main.96e37c58.chunk.css.map": "/ReactQuotes3/static/css/main.96e37c58.chunk.css.map",
+    "static/js/2.5795906c.chunk.js.LICENSE": "/ReactQuotes3/static/js/2.5795906c.chunk.js.LICENSE",
+    "static/media/logo.svg": "/ReactQuotes3/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32df2c1a.js",
+    "static/js/2.5795906c.chunk.js",
+    "static/css/main.96e37c58.chunk.css",
+    "static/js/main.956aa7df.chunk.js"
+  ]
+}
