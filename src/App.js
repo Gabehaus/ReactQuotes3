@@ -261,8 +261,9 @@ class App extends React.Component {
               color="white"
               style={{
                 backgroundColor: "none",
-                width: "10%",
-                marginLeft: "-35%"
+                display: "inline-block",
+                width: "20%",
+                marginLeft: "0%"
               }}
             ></FontAwesomeIcon>
           </a>
@@ -300,8 +301,9 @@ class App extends React.Component {
               color="white"
               style={{
                 backgroundColor: "none",
-                width: "10%",
-                marginLeft: "-35%"
+                display: "inline-block",
+                width: "20%",
+                marginLeft: "0%"
               }}
             ></FontAwesomeIcon>
           </a>
