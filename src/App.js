@@ -182,7 +182,7 @@ class App extends React.Component {
     this.setState({ loading: false, quoteData: newData });
     this.newQuote = this.state.quoteData.content;
     this.setBackground();
-    console.log = this.state.quoteData.content;
+    console.log(this.state.backgroundImages);
   }
 
   // function that forces App to re-render upon resizing
@@ -237,6 +237,12 @@ class App extends React.Component {
           className="App"
           style={this.state.quoteBoxStylesSmall[this.state.index]}
         >
+          <div id="preload">
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/piotr-chrobot-6oUsyeYXgTg-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/jj-jordan-S3-kHziSt00-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/federico-beccari-ahi73ZN5P0Y-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/joey-kyber-vXtX07KVcE8-unsplash.jpg" />
+          </div>
           <div id="text" style={inputStyle}>
             "{this.state.quoteData.content}"
           </div>
@@ -277,11 +283,19 @@ class App extends React.Component {
           className="App"
           style={this.state.quoteBoxStyles[this.state.index]}
         >
+          {/*images which are hidden using css - display: none - their function is just to force pre-loading of background images*/}
+          <div id="preload">
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/piotr-chrobot-6oUsyeYXgTg-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/jj-jordan-S3-kHziSt00-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/federico-beccari-ahi73ZN5P0Y-unsplash.jpg" />
+            <img src="https://freecodecampassets.s3.us-east-2.amazonaws.com/joey-kyber-vXtX07KVcE8-unsplash.jpg" />
+          </div>
           <div id="text" style={inputStyle}>
             "{this.state.quoteData.content}"
           </div>
           <div id="author">- {this.state.quoteData.author}</div>
           <br></br>
+
           <div id="loadCheck">{this.state.loading}</div>
 
           {/* button which appears as refresh icon that calls the API for a new quote */}
